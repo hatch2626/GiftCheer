@@ -4,120 +4,159 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gift-a-Cheer to Your Colleagues and Friends!</title>
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="styles3.css">
 </head>
-<body class="page3">
-       <div class="container">
-            <p class="intro-paragraph"><strong>Gift-a-Cheer to Your Colleagues and Friends Today!</strong></p>
-            <table id="okrTable">
-                <thead>
-                    <tr>
-                        <th>Objective</th>
-                        <th>Key Results</th>
-                        <th>Owner</th>
-                        <th>Target End-Date</th>
-                        <th>Progress</th>
-                        <th>Gift</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td rowspan="2">Build a TechUp Web App</td>
-                        <td>Build HTML</td>
-                        <td>YL</td>
-                        <td class="end-date">2024-05-15</td>
-                        <td class="progress">🙌</td>
-                        <td>
-                             <div class="cheer-section">                  
-                                <form id="nameForm">
-                                <!-- Your form inputs here -->
-                                <button type="submit">Submit</button>
-                                </form>
-                                                   
-                            <textarea class="cheer-input" placeholder="I want to say (max 250 characters)"></textarea>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Build CSS and JS</td>
-                        <td>YL</td>
-                        <td class="end-date">2024-05-25</td>
-                        <td class="progress">🏃</td>
-                        <td>
-                                <div class="cheer-section">                  
-             <form id="nameForm">
-             <!-- Your form inputs here -->
-             <button type="submit">Submit</button>
-             </form>
-                                              
-                        <textarea class="cheer-input" placeholder="I want to say (max 250 characters)"></textarea>
-                        </div>
-                                <textarea class="cheer-input" placeholder="I want to say (max 250 characters)"></textarea>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td rowspan="2">Launch TechUp Web App</td>
-                        <td>Pass the course</td>
-                        <td>YL</td>
-                        <td class="end-date">2024-05-31</td>
-                        <td class="progress">🚀</td>
-                        <td>
-                               <div class="cheer-section">                  
-             <form id="nameForm">
-             <!-- Your form inputs here -->
-             <button type="submit">Submit</button>
-             </form>
-                                              
-                        <textarea class="cheer-input" placeholder="I want to say (max 250 characters)"></textarea>
-                        </div>
-                                <textarea class="cheer-input" placeholder="I want to say (max 250 characters)"></textarea>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Pilot with my Team</td>
-                        <td>YL</td>
-                        <td class="end-date">2024-07-08</td>
-                        <td class="progress">🏃</td>
-                        <td>
-                                <div class="cheer-section">                  
-             <form id="nameForm">
-             <!-- Your form inputs here -->
-             <button type="submit">Submit</button>
-             </form>
-                                              
-                        <textarea class="cheer-input" placeholder="I want to say (max 250 characters)"></textarea>
-                        </div>
-                                <textarea class="cheer-input" placeholder="I want to say (max 250 characters)"></textarea>
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-                <tbody>
-                    <!-- Data will be inserted here by JavaScript -->
-                </tbody>
-            </table>
-            <button onclick="navigateTo('home')">Home</button>
-        </div>
-    <script>
-    document.getElementById('nameForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      // Register the input data in the backend database
-      // Add your AJAX code here to submit the form data
-    });
+<body>
+    <div class="container">
+        <img src="logoC.png" alt="Logo" class="logo">
+        <p class="intro-paragraph"><strong>Gift-a-Cheer to Your Colleagues and Friends Today!</strong></p>
+        <table id="okrTable">
+            <thead>
+                <tr>
+                    <th>Objective</th>
+                    <th>Key Results</th>
+                    <th>Owner</th>
+                    <th>Target End-Date</th>
+                    <th>Progress</th>
+                    <th>Gift</th>
+                    <th>I am...</th> <!-- New column for user's name -->
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Build a TechUp Web App</td>
+                    <td>Build HTML</td>
+                    <td>YL</td>
+                    <td class="end-date">2024-05-15</td>
+                    <td class="progress">🙌</td>
+                    <td>
+                        <div class="cheer-section">
+                            <div class="emoticon-container">
+                                <input type="radio" id="sunshine" name="emoticon" value="sunshine">
+                                <label for="sunshine">☀️</label>
+                                
+                                <input type="radio" id="flowers" name="emoticon" value="flowers">
+                                <label for="flowers">🌸</label>
+                                
+                                <input type="radio" id="diamonds" name="emoticon" value="diamonds">
+                                <label for="diamonds">💎</label>
+                            </div>
+                            <textarea class="cheer-input" placeholder="I want to say (max 250 characters)"></textarea>
+                           
+                        </div>
+                    </td>
+                    <td>
+                        <input type="text" class="cheer-name" placeholder="Don't be shy, tell us who you are.">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Build CSS and JS</td>
+                    <td>YL</td>
+                    <td class="end-date">2024-05-25</td>
+                    <td class="progress">🏃</td>
+                    <td>
+                        <div class="cheer-section">
+                            <div class="emoticon-container">
+                                <input type="radio" id="sunshine" name="emoticon" value="sunshine">
+                                <label for="sunshine">☀️</label>
+                                
+                                <input type="radio" id="flowers" name="emoticon" value="flowers">
+                                <label for="flowers">🌸</label>
+                                
+                                <input type="radio" id="diamonds" name="emoticon" value="diamonds">
+                                <label for="diamonds">💎</label>
+                            </div>
+                            <textarea class="cheer-input" placeholder="I want to say (max 250 characters)"></textarea>
+                           
+                        </div>
+                    </td>
+                    <td>
+                        <input type="text" class="cheer-name" placeholder="Don't be shy, tell us who you are.">
+                    </td>
+                
+                </tr>
+                <tr>
+                    <td rowspan="2">Launch TechUp Web App</td>
+                    <td>Pass the course</td>
+                    <td>YL</td>
+                    <td class="end-date">2024-05-31</td>
+                    <td class="progress">🚀</td>
+                    <td>
+                        <div class="cheer-section">
+                            <div class="emoticon-container">
+                                <input type="radio" id="sunshine" name="emoticon" value="sunshine">
+                                <label for="sunshine">☀️</label>
+                                
+                                <input type="radio" id="flowers" name="emoticon" value="flowers">
+                                <label for="flowers">🌸</label>
+                                
+                                <input type="radio" id="diamonds" name="emoticon" value="diamonds">
+                                <label for="diamonds">💎</label>
+                            </div>
+                            <textarea class="cheer-input" placeholder="I want to say (max 250 characters)"></textarea>
+                            
+                        </div>
+                    </td>
+                    <td>
+                        <input type="text" class="cheer-name" placeholder="Don't be shy, tell us who you are.">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pilot with my Team</td>
+                    <td>YL</td>
+                    <td class="end-date">2024-07-08</td>
+                    <td class="progress">🏃</td>
+                    <td>
+            <div class="cheer-section">
+                <div class="emoticon-container">
+                    <input type="radio" id="sunshine" name="emoticon" value="sunshine">
+                    <label for="sunshine">☀️</label>
+                    
+                    <input type="radio" id="flowers" name="emoticon" value="flowers">
+                    <label for="flowers">🌸</label>
+                    
+                    <input type="radio" id="diamonds" name="emoticon" value="diamonds">
+                    <label for="diamonds">💎</label>
+                </div>
+                <textarea class="cheer-input" placeholder="I want to say (max 250 characters)"></textarea>
+               
+            </div>
+                    </td>
+                    <td>
+                        <input type="text" class="cheer-name" placeholder="Don't be shy, tell us who you are.">
+                    </td>
+                </tr>
+            </tbody>
+    </table>
+    <div class="buttons">
+        <button type="submit">Submit</button>
+        <button type="button" onclick="navigateTo('home')">Home</button>
+    </div>
+    
+<script>
+        // Add unique ids for each form
+        document.querySelectorAll('.cheer-section form').forEach((form, index) => {
+            form.id = 'nameForm' + index;
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                // Register the input data in the backend database
+                // Add your AJAX code here to submit the form data
+            });
+        });
     </script>
-<!-- Disclaimer -->
-    <div class="disclaimer">
-            <p class="disclaimer-text">
-                Disclaimer: <br>
-                This website is created for learning purposes only.
-                The information provided here should not be considered professional advice. <br>
-                Please note that we make no guarantees regarding the accuracy, completeness, or reliability of the contents of this website. <br>
-                Any actions you take based on the contents of this website are at your own risk.
-                We are not liable for any losses or damages incurred from the use of this website.
-            </p>
-        </div>
-    <script src="/js/scripts.js"></script>
+
+    <!-- Disclaimer -->
+    <div class="disclaimer">
+        <p class="disclaimer-text">
+            Disclaimer: <br>
+            This website is created for learning purposes only.
+            The information provided here should not be considered professional advice. <br>
+            Please note that we make no guarantees regarding the accuracy, completeness, or reliability of the contents of this website. <br>
+            Any actions you take based on the contents of this website are at your own risk.
+            We are not liable for any losses or damages incurred from the use of this website.
+        </p>
+    </div>
+
+    <script src="scripts3.js"></script>
 </body>
 </html>

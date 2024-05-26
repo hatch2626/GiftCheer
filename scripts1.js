@@ -1,3 +1,3 @@
 function navigateTo(page) {
-    window.location.href = `/${page}.ejs`;
+    window.location.href = `/${page}`;
 }
