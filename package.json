@@ -3,5 +3,16 @@
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "^4.19.2"
-  }
+  },
+  "name": "giftcheer",
+  "version": "1.0.0",
+  "description": "Objective Key Results (OKRs) are now part of our work lingo. Besides working hard at delivering the OKRs, this website is to promote appreciative actions to all who work hard on their OKRs!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

@@ -23,5 +23,13 @@ app.get('/', function(req, res) {
    res.render('index');
 });
 
+app.get('/page2', function(req, res) {
+   res.render('page2');
+});
+
+app.get('/page3', function(req, res) {
+   res.render('page3');
+});
+
 // Tells the app which port to run on
 app.listen(8080);
