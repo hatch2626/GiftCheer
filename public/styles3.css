@@ -1,6 +1,5 @@
-/* Global styles */
 body {
-    background-color: #f2e3e6;(120, 62%, 96%);
+    background-color: hsl(120, 62%, 96%);
     font-family: Arial, sans-serif;
     margin: 0;
     display: flex;
@@ -9,12 +8,6 @@ body {
     min-height: 100vh; /* Allow content to expand */
     padding-top: 20px; /* Separate logo from top edge */
 }
-
-body {
-    background-color: hsl(120, 62%, 96%);
-    /* Other styles */
-}
-
 .logo {
     max-width: 100%;
     height: auto;
@@ -76,7 +69,6 @@ body {
     background-color: #9deeaa;
 }
 
-
 /* Cheer Section with emoticons */
 .cheer-section {
     display: flex;
@@ -131,20 +123,11 @@ td:nth-child(7) {
     color: #ccc; /* Greyed-out placeholder color */
 }
 
-
 .disclaimer {
     margin-top: 20px; /* Add space between table and disclaimer */
     font-size: 0.8em; /* Adjust font size as needed */
     color: #666; /* Adjust color as needed */
     text-align: center;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    padding-top: 20px;
 }
 
 @media (max-width: 600px) {
