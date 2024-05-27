@@ -127,3 +127,10 @@ body {
     }
   }
 
+@media (max-width: 600px) {
+    .card {
+        margin: 8px;
+        padding: 12px;
+    }
+}
+

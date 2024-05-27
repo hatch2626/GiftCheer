@@ -74,3 +74,9 @@ function navigateTo(page) {
         window.location.href = `/${page}`;
     }
 }
+
+document.querySelectorAll('.card-link').forEach(card => {
+    card.addEventListener('click', function(e) {
+        window.location = this.href;
+    });
+});
