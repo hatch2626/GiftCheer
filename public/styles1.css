@@ -85,7 +85,7 @@ body {
 .btn-primary {
   font-size: 0.8em;
   padding: 8px 16px;
-  background-color: #ADD8E6; /* Light blue color */
+  background-color: #1414ee; /* Dark blue color */
   color: white;
   border: none;
   border-radius: 5px;
@@ -117,18 +117,13 @@ body {
     .description {
       font-size: 0.9em;
     }
-  
-    .buttons {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .buttons button {
-      width: 100%;
-    }
-  
+ 
+    .card {
+      margin: 8px;
+      padding: 12px;
+  }
     .disclaimer {
       font-size: 0.7em;
     }
   }
-  
+
