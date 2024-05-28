@@ -125,17 +125,20 @@ body {
       font-size: 0.9em;
   }
   .container {
-      width: 95%;
-      padding: 10px;
-  }
-  .buttons button {
-      padding: 8px 16px;
-      font-size: 0.9em;
-  }
-  .card {
-      margin: 8px;
-      padding: 22px;
-  }
+    width: 95%;
+    padding: 10px;
+}
+.buttons button {
+    padding: 8px 16px;
+    font-size: 0.9em;
+    /* Additional styles to ensure buttons are visible and positioned correctly */
+    display: inline-block;  /* Ensures buttons are inline and not hidden */
+    margin: 5px;  /* Adds some spacing around buttons */
+}
+.card {
+    margin: 4px;  /* Reduced margin to make cards smaller */
+    padding: 10px;  /* Reduced padding to make cards smaller */
+}
   .disclaimer {
       font-size: 0.7em;
   }
