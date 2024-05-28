@@ -90,7 +90,7 @@ th {
 
 .progress-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Changed to row */
     gap: 5px;
 }
 
@@ -176,5 +176,18 @@ th {
         width: 100%;
         margin-bottom: 10px;
     }
-}
 
+    .lower-block {
+        overflow-x: auto; /* Enable horizontal scrolling */
+        -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+    }
+
+    table {
+        width: 100%; /* Make table responsive */
+        font-size: 0.8em; /* Reduce font size to fit content */
+    }
+
+    th, td {
+        padding: 4px; /* Reduce padding to fit content */
+    }
+}
